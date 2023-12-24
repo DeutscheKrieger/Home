@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Playfair;
+    src: url('Fonts/PlayfairDisplay-Variable.ttf');
+    font-weight: normal;
+}
+@font-face {
+  font-family: AbrilFat;
+  src: url('Fonts/AbrilFatface-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tektur;
+  src: url('Fonts/Tektur-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+}
+html, body {
+    margin:0;
+    padding:0;
+    }
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,transparent 14%, #8e88ff 15%, #8e88ff 20%, transparent 21%, transparent 79%, #8e88ff  80%, #8e88ff 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #8e88ff 15%, #8e88ff 20%, transparent 21%, transparent 79%, #8e88ff  80%, #8e88ff 85%, transparent 86%), radial-gradient(transparent 14%, #8e88ff 15%, #8e88ff 25%, transparent 26%);
+        background-size: 1em 1em;
+        background-color: #040422;
+        opacity: 1
+    
+}
+.tiBGDE, .tiBGEN{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.tiBGDE{
+  margin-bottom: 0px;
+}
+.tiBGEN{
+  margin-top: 5px;
+}
+.divtiBG{
+  background-color: #000000e5;
+  padding: 5px;
+  margin-top: 50px;
+}
+.rsDE, .rsEN{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ctBG{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.tiliBG{
+  width: 600px;
+  background-color: #000000d4;
+  padding: 10px;
+}
+/* Css menu */
+.menu{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+}
+.logoME{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.liloME{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+  float: left; /* effet flottant */
+  text-decoration: none; /* pas d'héritage avec effet souligné */
+  color: #ffffff; /* couleur du texte */
+  background: #000000; /* couleur de fond */
+  height: 36px; /* hauteur */
+  line-height: 33px; /* interligne */
+  padding: 0 10px; /* marges intérieur */
+  font-family: sans-serif; /* police d'écriture */
+  font-size: 13px; /* taille du texte */
+  transition: .5s; /* temps de transition lors du hover : une demi seconde */
+  }
+  nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+  background: #3cc0f4; /* couleur de fond */
+  }
+  nav  a:hover:first-child{ background: #336699; }
+
+
+/*Liste*/
+.generatedList {
+  list-style-type:none;
+  padding: 0px 40px;
+  text-align: center;
+}
+.generatedList li{
+  font-size:16px;
+  color:#000000;
+}
+.liens{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8e88ff;
+}
+li{
+  margin-top: 10px;
+}
+/* Media queries mobile et tablette */
+/* Mobiles */
+@media (min-width: 200px) and (max-width: 480px) {
+
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) {
+
+}

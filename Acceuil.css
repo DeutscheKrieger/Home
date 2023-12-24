@@ -33,6 +33,7 @@ body{
 .tiDE{
   margin: 0px;
   margin-top: 30px;
+  font-size: 23px;
 }
 .tiEN{
   margin: 5px;
@@ -58,7 +59,6 @@ body{
 }
 .imgTrip{
   max-width: 250px;
-  max-height: 300px;
   object-fit: cover;
 }
 .txtdes{
@@ -104,11 +104,15 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
 }
-
+.act{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8e88ff;
+}
 
 /* Css menu */
 .menu{
   position: fixed;
+  top: 0px;
   width: 100%;
   background-color: black;
 }
@@ -140,6 +144,40 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
   }
   nav  a:hover:first-child{ background: #336699; }
 
+.divJoin{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+.join{
+  text-align: justify;
+}
+/*Bouton join us*/
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 /* Media queries mobile et tablette */
 /* Mobiles */
 @media (min-width: 200px) and (max-width: 480px) {
@@ -154,6 +192,9 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
  .blocWH{
   width: auto;
  }
+ .tiDE{
+  padding: 0px 10px;
+ }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -166,6 +207,9 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
    }
    .blocWH{
     width: auto;
+   }
+   .tiDE, .tiEN{
+    padding: 0px 10px;
    }
 }
 
