@@ -56,12 +56,31 @@ body{
   background-color: #000000d4;
   padding: 10px;
 }
+.tiVI{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.tiVIDE{
+  margin-bottom: 0px;
+}
+.tiVIEN{
+  margin-top: 5px;
+}
+.divVI{
+  background-color: black;
+  padding: 10px;
+}
+.diVI{
+  display: flex;
+  justify-content: center;
+}
 /* Css menu */
 .menu{
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.788);
 }
 .logoME{
   width: 25px;
@@ -112,16 +131,24 @@ li{
 /* Media queries mobile et tablette */
 /* Mobiles */
 @media (min-width: 200px) and (max-width: 480px) {
-
- 
+  .diVI{
+    flex-direction: column;
+  }
+  iframe{
+    width: 350px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  
+  .diVI{
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-
+  .diVI{
+    flex-direction: column;
+  }
 
 }
 
