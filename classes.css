@@ -27,15 +27,18 @@ body{
     
 }
 .tiBGDE, .tiBGEN{
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .tiBGDE{
-  margin-bottom: 0px;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 18px;
 }
 .tiBGEN{
-  margin-top: 5px;
+  margin-top: 0px;
+  color: yellow;
+  font-size: 14px;
 }
 .divtiBG{
   background-color: #000000e5;
@@ -43,8 +46,18 @@ body{
   margin-top: 50px;
 }
 .rsDE, .rsEN{
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+.rsDE{
+  font-size: 16px;
+  color: white;
+  margin-bottom: 4px;
+}
+.rsEN{
+  font-size: 12px;
+  color: yellow;
+  margin-top: 0px;
 }
 .ctBG{
   padding: 10px;
@@ -54,7 +67,7 @@ body{
 .tiliBG{
   width: 600px;
   background-color: #000000d4;
-  padding: 10px;
+  padding: 20px;
 }
 .tiVI{
   color: white;
@@ -62,10 +75,14 @@ body{
   text-align: center;
 }
 .tiVIDE{
-  margin-bottom: 0px;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 18px;
 }
 .tiVIEN{
-  margin-top: 5px;
+  margin-top: 0px;
+  color: yellow;
+  font-size: 14px;
 }
 .divVI{
   background-color: black;
@@ -73,7 +90,7 @@ body{
 }
 .diVI{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 /* Css menu */
 .menu{
