@@ -48,16 +48,23 @@ body{
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
+.accDE{
+  margin-top: 0px;
+}
 .divdes{
   padding: 20px;
   display: flex;
+  justify-content: center;
 }
 .imgTrip{
-  width: 500px;
+  max-width: 250px;
+  max-height: 300px;
+  object-fit: cover;
 }
 .txtdes{
   background-color: #000000c4;
   padding: 20px;
+  max-width: 400px;
 }
 .whEN, .whDE{
   color: white;
@@ -137,21 +144,42 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
 /* Mobiles */
 @media (min-width: 200px) and (max-width: 480px) {
 
- 
+ .divdes{
+  flex-direction: column;
+ }
+ .imgTrip{
+  width: auto;
+  max-width: 400px;
+ }
+ .blocWH{
+  width: auto;
+ }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-
-
+  .divdes{
+    flex-direction: column;
+   }
+   .imgTrip{
+    width: auto;
+    max-width: 400px;
+   }
+   .blocWH{
+    width: auto;
+   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-   
+   .imgTrip{
+    width: 300px;
+   }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-    
+  .imgTrip{
+    width: 300px;
+   }
 }
 
 @media (min-width: 1201px) {
