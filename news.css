@@ -45,8 +45,12 @@ body{
 }
 .blAR{
   display: flex;
+  margin-bottom: 10px;
+}
+
+.eblAR{
+  padding: 10PX;
   background-color: #000000e5;
-  width: 450px;
 }
 .lien{
   padding-bottom: 5px;
@@ -61,7 +65,7 @@ body{
   text-align: center;
 }
 .txtAR{
-  padding: 5px 10px;
+  padding: 0px 10px;
 }
 .dsARGE{
   color: white;
@@ -124,7 +128,10 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     align-items: center;
   }
   .blAR{
-    width: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .eblAR{
     margin-bottom: 20px;
   }
   .imgArt{
@@ -139,7 +146,9 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     align-items: center;
   }
   .blAR{
-    width: 350px;
+    width: 100%;
+  }
+  .eblAR{
     margin-bottom: 20px;
   }
   .imgArt{
@@ -154,18 +163,25 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
     align-items: center;
   }
   .blAR{
-    width: 350px;
+    width: 100%;
     margin-bottom: 20px;
   }
   .imgArt{
     width: 150px;
   }
+  .eblARG{
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-
+  .eblAR{
+    width: 450px;
+  }
 }
 
 @media (min-width: 1201px) {
-
+  .eblAR{
+    width: 450px;
+  }
 }
