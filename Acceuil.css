@@ -38,7 +38,7 @@ body{
 }
 .tiEN{
   font-size: 18px;
-  color: yellow;
+  color: #00b7ff;
   margin: 5px;
 }
 .divTi{
@@ -52,7 +52,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 .accEN{
-  color: yellow;
+  color: #00b7ff;
   font-size: 12px;
   margin-top: 0px;
 }
@@ -89,7 +89,7 @@ body{
 .whEN{
   font-size: 14px;
   margin-top: 0px;
-  color: yellow;
+  color: #00b7ff;
 }
 .divWH{
   width: 100%;
@@ -109,7 +109,7 @@ body{
 }
 .txtWHEN{
   margin-bottom: 0px;
-  color: yellow;
+  color: #00b7ff;
   font-size: 14px;
   margin-top: 0px;
 }

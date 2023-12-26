@@ -55,10 +55,10 @@ body{
 .lien{
   padding-bottom: 5px;
   font-family: Arial;
-  color: #8e88ff;
+  color: #3027d9;
 }
 .stiAR{
-  color: yellow;
+  color: #00b7ff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin-top: 0px;
@@ -76,7 +76,7 @@ body{
   text-align: justify;
 }
 .dsAREN{
-  color: yellow;
+  color: #00b7ff;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;

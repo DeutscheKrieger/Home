@@ -40,7 +40,7 @@ body{
 }
 .tiBGEN{
   margin-top: 0px;
-  color: yellow;
+  color: #00b7ff;
   font-size: 14px;
 }
 .divtiBG{
@@ -59,7 +59,7 @@ body{
 }
 .rsEN{
   font-size: 12px;
-  color: yellow;
+  color: #00b7ff;
   margin-top: 0px;
 }
 .ctBG{
@@ -69,7 +69,7 @@ body{
 }
 .tiliBG{
   width: 600px;
-  background-color: #000000d4;
+  background-color: #000000ed;
   padding: 20px;
 }
 .tiVI{
@@ -84,7 +84,7 @@ body{
 }
 .tiVIEN{
   margin-top: 0px;
-  color: yellow;
+  color: #00b7ff;
   font-size: 14px;
 }
 .divVI{
@@ -138,12 +138,12 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
   text-align: center;
 }
 .generatedList li{
-  font-size:16px;
+  font-size:14px;
   color:#000000;
 }
 .liens{
   font-family: Arial, Helvetica, sans-serif;
-  color: #8e88ff;
+  color: #3027d9;
 }
 li{
   margin-top: 10px;
