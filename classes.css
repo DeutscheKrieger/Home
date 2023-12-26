@@ -26,6 +26,9 @@ body{
         opacity: 1
     
 }
+.TI{
+  display: none;
+}
 .tiBGDE, .tiBGEN{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
