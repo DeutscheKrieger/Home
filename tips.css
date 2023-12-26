@@ -131,9 +131,25 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
   nav  a:hover{ /* tous liens lors du survol dans la balise nav */
   background: #3cc0f4; /* couleur de fond */
   }
-  nav  a:hover:first-child{ background: #336699; }
+  nav  a:hover:first-child{ background: #336699; 
+}
 
 
+/*Footer*/
+.foot{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.foot a{
+  color: #00b7ff;
+}
+footer{
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 
 /* Media queries mobile et tablette */
 /* Mobiles */

@@ -197,6 +197,21 @@ nav  a{ /* tous les liens a à l'intérieur de la balise nav */
 	top:1px;
 }
 
+
+.foot{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.foot a{
+  color: #00b7ff;
+}
+footer{
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 /* Media queries mobile et tablette */
 /* Mobiles */
 @media (min-width: 200px) and (max-width: 480px) {
